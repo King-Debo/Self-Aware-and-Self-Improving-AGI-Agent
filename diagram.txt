@@ -1,0 +1,63 @@
++----------------------+     +----------------------+     +----------------------+
+|                      |     |                      |     |                      |
+|    Metamodel and     |     |   Modular and        |     |  Multi-objective     |
+|     Framework        |     | Hierarchical         |     |   Optimization       |
+|                      |     |  Architecture        |     |                      |
+|                      |     |                      |     |                      |
++----------------------+     +----------------------+     +----------------------+
+|                      |     |                      |     |                      |
+| Input:               |     | Input:               |     | Input:               |
+| - Guidelines of      |     | - Guidelines of      |     | - Guidelines of      |
+|   Latapie et al.     |     |   OpenCog framework  |     |   NSGA-III algorithm |
+|   (2023)             |     |                      |     |                      |
+| Output:              |     | Output:              |     | Output:              |
+| - Metamodel and      |     | - Modular and        |     | - Multi-objective    |
+|   framework for the  |     |   hierarchical       |     |   optimization       |
+|   AGI agent          |     |   architecture for   |     |   approach for the   |
+|                      |     |   the AGI agent      |     |   AGI agent          |
+|                      |     |                      |     |                      |
++----------------------+     +----------------------+     +----------------------+
+          |                            |                            |
+          |                            |                            |
+          |                            |                            |
+          v                            v                            v
++----------------------+     +----------------------+     +----------------------+
+|                      |     |                      |     |                      |
+|    Environments      |     |      Tasks           |     |      AGI Agent       |
+|     and Tasks        |     |                      |     |                      |
+|                      |     |                      |     |                      |
++----------------------+     +----------------------+     +----------------------+
+|                      |     |                      |     |                      |
+| Input:               |     | Input:               |     | Input:               |
+| - Guidelines of      |     | - Environments       |     | - Metamodel and      |
+|   OpenAI Gym         |     |                      |     |   framework          |
+|   framework          |     | Output:              |     | - Modular and        |
+| Output:              |     | - Tasks              |     |   hierarchical       |
+| - Environments       |     |                      |     |   architecture       |
+|                      |     |                      |     | - Multi-objective    |
+|                      |     |                      |     |   optimization       |
+|                      |     |                      |     |   approach           |
+|                      |     |                      |     | Output:              |
+|                      |     |                      |     | - AGI agent          |
+|                      |     |                      |     |                      |
++----------------------+     +----------------------+     +----------------------+
+          |                            |                            |
+          |                            |                            |
+          |                            |                            |
+          v                            v                            v
++----------------------+     +----------------------+     +----------------------+
+|                      |     |                      |     |                      |
+|      Main            |     |     Evaluation       |     |      Results         |
+|                      |     |                      |     |                      |
+|                      |     |                      |     |                      |
++----------------------+     +----------------------+     +----------------------+
+|                      |     |                      |     |                      |
+| Input:               |     | Input:               |     | Input:               |
+| - Environments       |     | - AGI agent          |     | - Evaluation         |
+| - Tasks              |     | - Environments       |     |   metrics            |
+| - AGI agent          |     | - Tasks              |     | - Evaluation         |
+| Output:              |     | - Evaluation metrics |     |   results            |
+| - Main               |     | Output:              |     | Output:              |
+|                      |     | - Evaluation results |     | - Results            |
+|                      |     |                      |     |                      |
++----------------------+     +----------------------+     +----------------------+
